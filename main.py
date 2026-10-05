@@ -1,6 +1,6 @@
 rice_price, milk_price, fruit_price, number_of_baskets, family_members, = 12 , 4 , 8 , 2 , 4
 
-basket_cost_per_person = (rice_price + milk_price + fruit_price)* number_of_baskets/family_members
+basket_cost_per_person = (rice_price + milk_price + fruit_price* number_of_baskets)/family_members
 print ("Basket cost per person =",int(basket_cost_per_person))
 
 ppl = int(input("Enter total number people : "))
@@ -33,5 +33,6 @@ print("Corrected average =", corrected_average)
 
 
 print("Basket cost per person =", basket_cost_per_person)
+
 
 print("Corrected average =", corrected_average)
